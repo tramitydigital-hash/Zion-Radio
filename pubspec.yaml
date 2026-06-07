@@ -1,0 +1,37 @@
+name: zion_radio
+description: "Zion Radio."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Audio
+  just_audio: ^0.10.4
+  audio_service: ^0.18.18
+  audio_session: ^0.2.2
+
+  # Compartir
+  share_plus: ^11.0.0
+
+  # Abrir enlaces
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
